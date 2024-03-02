@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.scss";
 import info from "./CardInfo.json";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
@@ -37,7 +38,10 @@ function Card() {
               </div>
             </div>
             <div className="card__buttons">
-              <button className="work__apply">Откликнуться</button>
+            <NavLink to={'/Vacancy'}>
+              <button className="work__apply"> Откликнуться 
+              </button>
+              </NavLink>  
             </div>
           </div>
       ))}

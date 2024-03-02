@@ -14,7 +14,7 @@ const Layout = () => {
         <nav className="header__nav">
           <ul>
             <li>
-              <NavLink to={"/UserInfo"}>Menu</NavLink>
+              <NavLink to={"/"}>Menu</NavLink>
             </li>
             <li>
               <NavLink to={"/"}>About us</NavLink>
