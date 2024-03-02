@@ -1,0 +1,38 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #1F2544;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+header h1 a {
+  text-decoration: none;
+  color: goldenrod;
+}
+header .header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header .header__nav ul a {
+  text-decoration: none;
+  color: gold;
+}
+header .header__nav ul :hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1F2544;
+  text-align: center;
+  color: goldenrod;
+  padding: 1rem;
+}

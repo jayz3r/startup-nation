@@ -1,0 +1,44 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    .filters {
+        font-size: 3rem;
+      display: flex;
+    //   text-align: center;
+      flex-direction: column;
+      h2 {
+        // font-size: 18px;
+        margin-bottom: 8px;
+        color: #333; /* Choose your desired text color */
+      }
+    }
+    label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    input[type="checkbox"] {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #007BFF; /* Choose your desired color for checked labels */
+}
+    .card__section {
+      width: 70%;
+    }
+  }
+  .page {
+    text-align: center;
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+.container .flex .filters {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container .flex .filters h2 {
+  margin-bottom: 8px;
+  color: #333; /* Choose your desired text color */
+}
+.container .flex label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.container .flex input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.container .flex input[type=checkbox]:checked + label {
+  font-weight: bold;
+  color: #007BFF; /* Choose your desired color for checked labels */
+}
+.container .flex .card__section {
+  width: 70%;
+}
+.container .page {
+  text-align: center;
+}

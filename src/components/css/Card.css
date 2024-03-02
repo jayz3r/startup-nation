@@ -1,0 +1,68 @@
+.card {
+  max-width: 800px; /* Set a maximum width for the card */
+  width: 100%;
+  margin-bottom: 2rem;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 1rem;
+  gap: 1.5rem;
+  -webkit-box-shadow: 0px -1px 11px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 11px -1px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+
+.card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.card__header .head__title {
+  width: 100%;
+}
+.card__header .head__title h3 {
+  color: blue;
+  margin: 0;
+}
+.card__header .head__title span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card__header img {
+  width: 100px;
+}
+
+.card__details {
+  margin-bottom: 10px;
+}
+.card__details a {
+  text-decoration: none;
+  color: black;
+}
+.card__details .work__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.card__details .work__tags span {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(33, 170, 124, 0.5);
+}
+
+.card__buttons button {
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+}
+.card__buttons button:hover {
+  color: white;
+  background-color: green;
+}

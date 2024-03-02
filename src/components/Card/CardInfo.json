@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Front-End jr 1 проект",
+        "salary":"5сом",
+        "name": "Лионель Месси",
+        "experience":"1 год опыта",
+        "resume":"Резюме",
+        "where":"Можно из дома",
+        "img": "https://eco-service.kz/wp-content/uploads/electric-2-3-569x600.jpg"
+
+    },
+    {
+        "title": "Почистить двор от листвы",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Морпехова, дом 21",
+        "img": "https://media.fulledu.ru/documents/images/2018.04.13.10/article/5ad107b239d49817ab1bf111.jpg"
+    },
+    {
+        "title": "Inosuke",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_400x400.jpg"
+    },
+    {
+        "title": "Tengen",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "https://seeklogo.com/images/1/20th-century-fox-logo-AE3318C988-seeklogo.com.png"
+    },
+    {
+        "title": "Zenitsu",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "zenitsu"
+    },
+    {
+        "title": "Tanjiro",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "tanjiro"
+    },
+    {
+        "title": "Nezuko",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "nezuko"
+    },
+    {
+        "title": "Akaza",
+        "salary":"5000сом",
+        "name": "John Cena",
+        "experience":"Без Опыта",
+        "resume":"Без резюме",
+        "where":"Можно из дома",
+        "img": "akaza"
+    }
+]
