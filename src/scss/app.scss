@@ -310,6 +310,7 @@ body {
     // align-items: flex-start;
     // justify-content: space-between;
     // .user-skills__item
+    margin: 0px 0px 15px 0px;
 
     &__item {
         background-color: #f8f9fb;
@@ -323,4 +324,35 @@ body {
         display: inline-block;
         font-weight: 400;
     }
+}
+
+.full-stars {
+    text-align: left;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+    fill: #337ab7;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #bfe2ff;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #337ab7;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #bfe2ff;
 }
